@@ -1,0 +1,278 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+}
+body{
+  background: rgb(38, 36, 36);
+color: white;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+background: linear-gradient(rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)), url(headerbg.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.divs{
+padding: 26px 163px;
+
+}
+.flex{
+display: flex;
+align-items: center;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo{
+width: 190px;
+height: 55px;
+cursor: pointer;
+}
+nav button{
+border: 0;
+outline: 0;
+background: #e50914;
+color: white;
+padding: 7px 36px;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.btn-1 {
+display:inline;
+align-items: center;
+border: 1px solid white;
+padding: 7px 36px;
+background: transparent;
+
+
+}
+.btn-1 img{
+width: 12px;
+margin-left: 8px;
+margin-right: 8px;
+
+}
+.headercontent{
+flex-direction: column;
+justify-content: center;
+gap: 50px;
+padding: 200px 100px;
+text-align: center;
+
+}
+.headercontent h4 {
+margin: 24px;
+
+}
+.headercontent p {
+margin-top: 24px;
+}
+
+.email-signup{
+background: white;
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-top: 30px;
+margin-left: 230px;
+width: 700px;
+overflow: hidden;
+margin-top: 40px;
+
+}
+.email-signup input{
+flex: 1;
+border: 0;
+outline: 0;
+margin-left: 20px;
+
+}
+.email-signup button{
+  background: #e50914;
+margin-left: 10px;
+border: 0;
+outline: 0;
+color: white;
+font-size: 16px;
+cursor: pointer;
+padding: 15px 30px;
+}
+.features{
+margin-top:24px ;
+font-size: 22px;
+
+}
+.features h1{
+font-size: 50px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.feature-1{
+background: black;
+display: flex;
+align-items: center;
+
+}
+.text-col{
+
+  flex-basis: 50%;
+  margin-bottom: 20px;
+  padding: 0 5%;
+
+}
+.img-col{
+flex-basis: 50%;
+margin-bottom: 20px;
+
+}
+.feature-2{
+  background: black;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+
+}
+.feature-3{
+  background: black;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+
+}.feature-4{
+  background: black;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+
+}
+.faqs{
+background: black;
+margin-top: 24px;
+} 
+ .faq{
+padding: 10px 12%;
+text-align: center;
+font-size: 18px;
+
+
+ }
+
+
+ .faq h2{
+font-size: 40px;
+font-weight: 500;
+
+ }
+.accordian{
+margin: 60px auto;
+width: 100%;
+max-width: 800px;
+}
+.accordian li{
+list-style: none;
+width: 800px;
+height: 100px;
+padding: 5px;
+
+
+}
+.accordian li label{
+display: flex;
+align-items: center;
+padding: 20px;
+font-size: 18px;
+font-weight: 500;
+background: #303030;
+margin-bottom: 2px;
+cursor: pointer;
+position: relative;
+}
+label::after{
+content: '+';
+font-size: 34px;
+position: absolute;
+right: 20px;
+
+}
+input[type="radio"]{
+display:none;
+
+}
+.accordian .content{
+background: #303030;
+text-align: left;
+max-height: 0;
+overflow: hidden;
+}
+
+.email-signup2{
+  background: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 280px;
+  width: 700px;
+  overflow: hidden;
+  margin-bottom: 44px;
+  
+  }
+  .email-signup2 input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+  
+  }
+  .email-signup2 button{
+    background: #e50914;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+  }
+  .footer{
+    padding-block: 80px ;
+    margin-top: 24px;
+    background-color:black;
+    align-items: center;
+    }
+    
+    
+        .link-coloumn{
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding-right: 200px;
+    
+        }
+        .footer-div{
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    
+        }
+        .hover-link{
+color: azure;
+
+
+
+        }
